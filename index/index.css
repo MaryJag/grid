@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.container {
+	display: grid;
+	background-color: #eeeeee;
+	grid-template-columns: 40fr 60fr;
+	grid-gap: 10px;
+}
+
+ .container p {
+	color: #000;
+	
+}
+ 
+
+.aside {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+   	color: #fff;
+   	background-color: #8cacea
+}
